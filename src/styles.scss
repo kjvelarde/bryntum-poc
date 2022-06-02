@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@bryntum/schedulerpro/schedulerpro.material.css";
+@import "~@bryntum/demo-resources/scss/example.scss";
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+bryntum-schedulerpro {
+  flex: 1 1 50%;
+}
+
+bryntum-resourcehistogram {
+  flex: 1 1 50%;
+}
+
+.histogram-toolbar {
+  justify-content : flex-end;
+  min-height      : 60px;
+  max-height      : 60px;
+  box-shadow      : 0 -2px 4px rgba(0, 0, 0, 0.08);
+
+  .b-checkbox {
+      margin-right : 1em;
+  }
+}
