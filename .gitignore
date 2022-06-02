@@ -102,18 +102,4 @@ dist
 
 # TernJS port file
 .tern-port
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/0.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/1.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/2.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/3.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/4.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/5.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/6.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/7.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/index.pack
-.angular/cache/13.2.1/angular-webpack/4fa93b29d9d3e3c66bf4bf3c3846aa08524902d6/index.pack.old
-.angular/cache/13.2.1/babel-webpack/7af497ec81991ccc31c4a434e0925ba0.json
-.angular/cache/13.2.1/babel-webpack/8c621a0531e2bece40de245ae858f10a.json
-.angular/cache/13.2.1/babel-webpack/717179be56a7ee714092ef22b43e6f7d.json
-.angular/cache/13.2.1/babel-webpack/db50a31a7592200b9eee3fb89b953bf2.json
-.angular/cache/13.2.1/babel-webpack/ec40043c535ff567a60b80d4a68e5453.json
+.angular/

@@ -4,10 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BryntumSchedulerProModule } from '@bryntum/schedulerpro-angular';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { ValidationComponent } from './app-validation/app-validation.component';
+import { SchedulerComponent } from './scheduler/scheduler.component';
 import { AppRouterModule } from './app-router.module';
 
 @NgModule({
-    declarations : [AppComponent, ValidationComponent],
+    declarations : [AppComponent, SchedulerComponent, ValidationComponent],
     imports      : [
         BrowserModule,
         BryntumSchedulerProModule,

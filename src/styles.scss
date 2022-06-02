@@ -13,6 +13,14 @@ app-root {
   display: flex;
   flex-direction: column;
   flex: 1;
+  height: 80vh;  
+}
+
+#karl-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;  
 }
 
 bryntum-schedulerpro {
