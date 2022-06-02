@@ -1,3 +1,9 @@
+# START HERE
+* add bryntum private npm registry : https://www.bryntum.com/docs/scheduler-pro/guide/SchedulerPro/npm-repository
+* use node v12+
+* run `npm i` to install dependencies
+* run `npm run start` to start the app
+
 # Angular Scheduler Pro Resource Histogram demo
 
 This example uses Bryntum Scheduler Pro wrapped in the provided BryntumSchedulerProComponent wrapper.
