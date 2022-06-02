@@ -1,16 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { AppErrorHandler } from './error.handler';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { BryntumSchedulerProModule } from '@bryntum/schedulerpro-angular';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { ValidationComponent } from './app-validation/app-validation.component';
+import { AppRouterModule } from './app-router.module';
 
 @NgModule({
-    declarations : [AppComponent],
+    declarations : [AppComponent, ValidationComponent],
     imports      : [
         BrowserModule,
-        BryntumSchedulerProModule
+        BryntumSchedulerProModule,
+        AppRouterModule,
     ],
     providers : [{ provide : ErrorHandler, useClass : AppErrorHandler }],
     bootstrap : [AppComponent]
